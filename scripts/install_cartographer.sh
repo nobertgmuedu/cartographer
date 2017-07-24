@@ -18,6 +18,7 @@ set -o errexit
 set -o verbose
 
 # Build and install Cartographer.
+git clone https://github.com/googlecartographer/cartographer
 cd cartographer
 mkdir build
 cd build
